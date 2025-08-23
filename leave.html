@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Leave Apply</title>
+<link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+<div class="container">
+  <div class="topbar">
+    <a href="./dashboard.html">← Back</a>
+    <button id="btnLogout">Logout</button>
+  </div>
+  <div class="card" style="max-width:640px;margin:auto">
+    <h2>Leave Apply</h2>
+    <label>From</label><input id="from" type="date"/>
+    <label>To</label><input id="to" type="date"/>
+    <label>Type</label>
+    <select id="type"><option value="CL">Casual Leave</option><option value="SL">Sick Leave</option><option value="PL">Paid Leave</option></select>
+    <label>Reason</label><textarea id="reason" rows="4"></textarea>
+    <button id="btnSubmit" style="margin-top:12px">Submit</button>
+    <p id="msg"></p>
+  </div>
+</div>
+<script src="js/leave.js"></script>
+</body>
+</html>
