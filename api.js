@@ -1,4 +1,4 @@
-const API_URL = "PASTE_YOUR_APPS_SCRIPT_WEB_APP_URL_HERE";
+const API_URL = "https://script.google.com/macros/s/AKfycbwNyxMm0Gq3-5yD-Wcd5MuBkVVOxnutSJdwhaXTHJ3Kp_TiFjgm2w3APxuIH2rAeHztFg/exec";
 function guard(){ const empId=localStorage.getItem('empId'), token=localStorage.getItem('token'); if(!empId||!token) location.href='index.html'; const who=document.getElementById('who'); if(who) who.textContent='Welcome, '+(localStorage.getItem('name')||''); }
 guard();
 async function callApi(action, extra={}){
