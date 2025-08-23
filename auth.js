@@ -1,5 +1,5 @@
 // Enter your deployed Apps Script Web App URL here
-const API_URL = "PASTE_YOUR_APPS_SCRIPT_WEB_APP_URL_HERE";
+const API_URL = "https://script.google.com/macros/s/AKfycbwNyxMm0Gq3-5yD-Wcd5MuBkVVOxnutSJdwhaXTHJ3Kp_TiFjgm2w3APxuIH2rAeHztFg/exec";
 
 document.getElementById('btnLogin').addEventListener('click', async () => {
   const empId = document.getElementById('empId').value.trim();
