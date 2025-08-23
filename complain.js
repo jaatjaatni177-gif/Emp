@@ -1,4 +1,4 @@
-const API_URL = "PASTE_YOUR_APPS_SCRIPT_WEB_APP_URL_HERE";
+const API_URL = "https://script.google.com/macros/s/AKfycbwNyxMm0Gq3-5yD-Wcd5MuBkVVOxnutSJdwhaXTHJ3Kp_TiFjgm2w3APxuIH2rAeHztFg/exec";
 if(!localStorage.getItem('empId')||!localStorage.getItem('token')) location.href='index.html';
 document.getElementById('btnSubmit').addEventListener('click', async ()=>{
   const subject=document.getElementById('subject').value, desc=document.getElementById('desc').value, msg=document.getElementById('msg');
