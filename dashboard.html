@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/><title>Dashboard</title><link rel="stylesheet" href="css/style.css"/></head><body>
+  <header class="topbar"><div class="brand">Employee Portal</div><button id="logoutBtn" class="btn small danger">Logout</button></header>
+  <main class="container profile">
+    <section class="left">
+      <h2 id="welcome">Welcome,</h2>
+      <div class="profile-grid">
+        <div class="labels">
+          <div>Employee ID:</div><div>Emp Code:</div><div>Designation:</div><div>Father's Name:</div><div>Gender:</div><div>PF Number:</div><div>Date of Birth:</div><div>Mobile:</div><div>Aadhar:</div><div>ID Proof:</div><div>Permanent Address:</div><div>Local Address:</div><div>Joining Date:</div><div>Emergency Contact:</div><div>Status:</div>
+        </div>
+        <div class="values" id="values">
+        </div>
+      </div>
+    </section>
+    <aside class="right">
+      <img id="photo" class="avatar" src="assets/avatar.png" alt="avatar"/>
+      <div class="actions">
+        <a class="btn block" href="leave.html">Leave Apply</a>
+        <a class="btn block" href="leave_balance.html">Leave Balance</a>
+        <a class="btn block" href="complain.html">Complain</a>
+        <a class="btn block" href="#" id="salaryBtn">Salary Slip</a>
+      </div>
+    </aside>
+  </main>
+  <script src="js/config.js"></script>
+  <script src="js/dashboard.js"></script>
+</body></html>
