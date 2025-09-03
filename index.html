@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="utf-8" />
-  <title>3D Truck Packer (GitHub Pages Ready)</title>
+  <title>3D Truck Packer</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <style>
     body { font-family: Arial, Helvetica, sans-serif; margin:0; display:flex; height:100vh; }
@@ -156,7 +156,6 @@
 
     (function animate(){ requestAnimationFrame(animate); renderer.render(scene, camera); })();
 
-    // simple overlap check
     function aabbOverlap(a,b) {
       return !( a.x + a.l <= b.x ||
                 b.x + b.l <= a.x ||
